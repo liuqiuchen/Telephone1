@@ -1,44 +1,44 @@
 package com.telephone1;
-/**×öÒ»¸öÊÖ»úÀà£¬ÓĞÊôĞÔºÍ·½·¨£¬ÔÙ±àĞ´ÊµÀı¶ÔÏóµ÷ÓÃ*/
+/**åšä¸€ä¸ªæ‰‹æœºç±»ï¼Œæœ‰å±æ€§å’Œæ–¹æ³•ï¼Œå†ç¼–å†™å®ä¾‹å¯¹è±¡è°ƒç”¨*/
 
 public class MyTelephone1 {
-	//³ÉÔ±±äÁ¿
+	//æˆå‘˜å˜é‡
 	float screen;
 	float cpu;
 	float mem;
 	
-	//¶¨Òå¾²Ì¬±äÁ¿
-	static String str = "ÎÒÊÇ¾²Ì¬±äÁ¿";
+	//å®šä¹‰é™æ€å˜é‡
+	static String str = "æˆ‘æ˜¯é™æ€å˜é‡";
 	
-	//¶¨Òå¾²Ì¬·½·¨
+	//å®šä¹‰é™æ€æ–¹æ³•
 	public static void staticFunc(){
-		System.out.println("ÎÒÊÇ¾²Ì¬·½·¨");
+		System.out.println("æˆ‘æ˜¯é™æ€æ–¹æ³•");
 	}
 	
-	/*ÀàÀïÃæµÄ·½·¨*/
+	/*ç±»é‡Œé¢çš„æ–¹æ³•*/
 	void print(){
-		System.out.println("ÎÒÊÇÀàÀïÃæµÄ·½·¨");
+		System.out.println("æˆ‘æ˜¯ç±»é‡Œé¢çš„æ–¹æ³•");
 	}
 	
 	void show(){
-		System.out.println("screen:" + screen + "cpu:" + cpu + "mem:" + mem + "ÎÒÊÇÀàÀïÃæµÄ·½·¨");
+		System.out.println("screen:" + screen + "cpu:" + cpu + "mem:" + mem + "æˆ‘æ˜¯ç±»é‡Œé¢çš„æ–¹æ³•");
 	}
 	
-	//±àĞ´ÎŞ²ÎµÄ¹¹Ôì·½·¨
+	//ç¼–å†™æ— å‚çš„æ„é€ æ–¹æ³•
 	public MyTelephone1(){
-		System.out.println("ÎÒÊÇÎŞ²ÎµÄ¹¹Ôì·½·¨");
+		System.out.println("æˆ‘æ˜¯æ— å‚çš„æ„é€ æ–¹æ³•");
 	}
 	
-	//±àĞ´ÓĞ²ÎµÄ¹¹Ôì·½·¨
+	//ç¼–å†™æœ‰å‚çš„æ„é€ æ–¹æ³•
 	public MyTelephone1(float newScreen,float newCpu,float newMem){
 		if(newScreen >= 3.5){
 			screen = newScreen;
 		}else{
-			System.out.println("Ã»ÓĞÄÇÃ´Ğ¡³ß´çµÄÊÖ»úÆÁÄ»£¬ÏµÍ³Ä¬ÈÏÎª0.0");
+			System.out.println("æ²¡æœ‰é‚£ä¹ˆå°å°ºå¯¸çš„æ‰‹æœºå±å¹•ï¼Œç³»ç»Ÿé»˜è®¤ä¸º0.0");
 		}
 		
 		cpu = newCpu;
 		mem = newMem;
-		System.out.println("screen:" + screen + "cpu:" + cpu + "mem:" + mem + "ÎÒÓĞ²ÎµÄ¹¹Ôì·½·¨");
+		System.out.println("screen:" + screen + "cpu:" + cpu + "mem:" + mem + "æˆ‘æ˜¯æœ‰å‚çš„æ„é€ æ–¹æ³•");
 	}
 }
